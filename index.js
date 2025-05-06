@@ -1,7 +1,7 @@
 import { PeerServer } from 'peer';
 
 const peerServer = PeerServer({
-    port: 9000,
+    port: 443,
     path: '/',
     allow_discovery: true,
 });
